@@ -1,0 +1,49 @@
+clf, close all;
+% Create axes for placing a background 
+f = figure;
+ha = axes('units','normalized', 'position',[0 0 1 1]);
+uistack(ha,'top');
+% Read the background and scale it 
+I=imread('..\ImageLIB\back.jpg');
+hi = imagesc(I);
+
+% Display the axes
+set(ha,'handlevisibility','off', 'visible','off');
+
+% Make the title
+uicontrol( 'Style','Text',...
+                'BackgroundColor',[.0 .0 .0],...
+                'ForegroundColor',[.3 .55 .71],...
+                'units', 'normalized', ...                
+                'position', [0 0.85 1 0.13],...
+                'string', 'Image Segmentation', ...
+                'HorizontalAlignment', 'center', ...
+                'fontsize', 30, ...
+                'Fontweight', 'bold', ...
+                'HandleVisibility', 'off');
+
+ % Defining parameters
+ left = 0.25;
+ w = 0.5;
+ h = 0.08;
+            
+% Place the buttons       
+u1 = uicontrol('Style','push','units','normalized', 'pos',...
+                [left 0.7 w h],'string','Hough Transformation',...
+                'Callback', 'IS_HoughTransform');  
+            
+u2 = uicontrol('Style','push','units','normalized', 'pos',...
+                [left 3.55 w h],'string','Edge det.: Sobel operator',...
+                'Callback', 'IS_SobelOperator');  
+            
+u3 = uicontrol('Style','push','units','normalized', 'pos',...
+                [left 0.5 w h],'string','Watershed everything',...
+                'Callback', 'IS_Watershed');
+            
+
+            
+ 
+%Align them all            
+align([u1 u2 u3],'Left','Fixed', 10);
+
+  
