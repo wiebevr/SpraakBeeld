@@ -1,3 +1,6 @@
+% Control panel for all the Image Color Processing files 
+% Made by Jasper Vercammen
+
 clf, close all;
 % Create axes for placing a background 
 f = figure;
