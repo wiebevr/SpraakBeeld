@@ -3,7 +3,7 @@ a_bin = imread('..\ImageLIB\cameraman.tif');
 c = 30;
 y = 0.1;
 
-% Pas logaritme toe op de afbeelding %
+% Pas power-Law transformatie toe op de afbeelding %
 a_bin_log = c.*double(a_bin).^y;
 
 figure(5), clf

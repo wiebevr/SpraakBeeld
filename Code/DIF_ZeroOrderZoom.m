@@ -7,7 +7,6 @@ a_bin_crop=a_bin(37:100,97:160);    %} Even stuk eruit om kleinere foto te hebbe
 
 
 %-----------------zero order zoom image-----------------
-
 zoom=8;
 
 [x,y]=size(a_bin_crop);
