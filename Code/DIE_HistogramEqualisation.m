@@ -3,8 +3,8 @@ a_bin_d = double(a_bin);
 
 histogram = zeros(256,1);
 
-a_bin_double = FuncEqualisation(a_bin_d);
-
+%a_bin_double = FuncEqualisation(a_bin_d);
+a_bin_double = histogram_equalisation(a_bin);
 figure(12), clf;
 subplot(2, 2, 1);
 imshow(a_bin);

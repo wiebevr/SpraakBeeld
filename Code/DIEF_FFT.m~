@@ -1,0 +1,17 @@
+% Loads an image and applies the FFT transform
+original = imread('../ImageLIB/(blown_ic_hr.tif');
+
+fft_original = fft2(original,256,256);
+fft_shifted = fft_original;
+
+
+
+figure(1), clf;
+subplot(1, 2, 1);
+imshow(original);
+title('Original');
+
+subplot(1,2,2);
+imshow(log(abs(F2)),[-1 5]); colormap(jet); colorbarimshow(uint8(abs(fft_shifted)));
+title('FFT of original');
+

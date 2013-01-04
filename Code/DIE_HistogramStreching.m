@@ -18,6 +18,7 @@ title('Image histogram BEFORE shrinking');
 subplot(2,2,2);
 imhist(a_bin);
 
+%a_bin_double = histogram_stretching(a_bin)
 subplot(2,2,3);
 imshow(uint8(a_bin_double))
 title(['Image histogram shrinking with MIN=', num2str(minStrech), ' And MAX=', num2str(maxStrech)]);

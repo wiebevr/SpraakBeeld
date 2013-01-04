@@ -35,7 +35,10 @@ imshow(a_bin2);
 title('Lenna twinsister');
 subplot(2,2,3);
 imshow(a_bin_total);
+
 title('lenna - lenna twinsister');
 subplot(2,2,4);
-imshow(a_bin_total_eq);
+imshow(uint8(image_subtraction(a_bin1, a_bin2, 127)));
+%imshow(a_bin_total_eq);
+
 title('Histogram equalisition');
