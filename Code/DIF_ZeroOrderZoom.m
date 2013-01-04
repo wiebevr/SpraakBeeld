@@ -1,5 +1,5 @@
 clear ALL;
-a_bin=imread('..\ImageLIB\cameraman.tif');
+a_bin=imread('../ImageLIB/cameraman.tif');
 
 
 %-----------------cropped image (stuk uit foot halen)-----------------                        

@@ -1,5 +1,5 @@
-a_in_shape = imread('..\ImageLIB\shapes.tif');
-a_in_finger = imread('..\ImageLIB\noisy-fingerprint.tif');
+a_in_shape = imread('../ImageLIB/shapes.tif');
+a_in_finger = imread('../ImageLIB/noisy-fingerprint.tif');
 
 
 struct_element = strel('square', 20);

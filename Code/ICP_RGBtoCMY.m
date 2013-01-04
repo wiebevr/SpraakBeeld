@@ -1,4 +1,4 @@
-a_rgb = imread('..\ImageLIB\Lenna_RGB.tif');
+a_rgb = imread('../ImageLIB/Lenna_RGB.tif');
 [r, c, p] = size(a_rgb);
 
 % Take the inverse

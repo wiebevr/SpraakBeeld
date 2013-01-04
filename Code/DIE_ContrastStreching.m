@@ -1,4 +1,4 @@
-a_bin = imread('..\ImageLIB\cameraman.tif');
+a_bin = imread('../ImageLIB/cameraman.tif');
 a_bin_double = double(a_bin);
 underlim = 30;
 upperlim = 255-underlim;

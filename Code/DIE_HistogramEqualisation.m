@@ -1,4 +1,4 @@
-a_bin = imread('..\ImageLIB\cameraman_low_contrast.tif');
+a_bin = imread('../ImageLIB/cameraman_low_contrast.tif');
 a_bin_d = double(a_bin);
 
 histogram = zeros(256,1);

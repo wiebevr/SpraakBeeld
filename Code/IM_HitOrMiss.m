@@ -1,4 +1,4 @@
-a_in = imread('..\ImageLIB\small-squares.tif');
+a_in = imread('../ImageLIB/small-squares.tif');
 
 b1 = [ 0 0 0
        0 1 1

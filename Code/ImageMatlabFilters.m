@@ -1,4 +1,4 @@
-a_rgb = imread('..\ImageLIB\peppers.jpg');
+a_rgb = imread('../ImageLIB/peppers.jpg');
 [r, c, p] = size(a_rgb);
 
 kernel1 = fspecial('average',5);

@@ -2,7 +2,7 @@ clear all;
 %Combineer 2 kleuren van een foto
 offset = 0;
 
-foto = imread('..\ImageLIB\lenna_RGB.tif');
+foto = imread('../ImageLIB/lenna_RGB.tif');
 
 foto_rood = foto(:,:,1);
 foto_groen = foto(:,:,2);

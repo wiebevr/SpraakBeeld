@@ -1,4 +1,4 @@
-a_bin = imread('..\ImageLIB\cameraman.tif');
+a_bin = imread('../ImageLIB/cameraman.tif');
 a_bin_double = double(a_bin);
 
 minShrink = 100;

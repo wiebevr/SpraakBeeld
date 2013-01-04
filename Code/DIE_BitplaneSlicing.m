@@ -1,7 +1,7 @@
 clear all;
 %Bitplane Slicing
 plane = 8;
-foto = imread('..\ImageLIB\cameraman.tif');
+foto = imread('../ImageLIB/cameraman.tif');
 
 foto_double = double(foto);
 [r,c] = size(foto_double);

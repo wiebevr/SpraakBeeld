@@ -1,4 +1,4 @@
-a_bin = imread('..\ImageLIB\cameraman.tif');
+a_bin = imread('../ImageLIB/cameraman.tif');
 
 % Inverteer de afbeelding %
 a_bin_neg = 255 - a_bin;

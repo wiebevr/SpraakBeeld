@@ -1,4 +1,4 @@
-a_in = imread('..\ImageLIB\building.tif');
+a_in = imread('../ImageLIB/building.tif');
 
 threshold = [0.08, 0.1] ;
 sigma = 3;

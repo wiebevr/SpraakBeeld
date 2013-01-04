@@ -1,4 +1,4 @@
-a_rgb = imread('..\ImageLIB\jupitermoon.tif');
+a_rgb = imread('../ImageLIB/jupitermoon.tif');
 figure(2);
 mask = roipoly(a_rgb);
 

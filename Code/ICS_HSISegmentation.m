@@ -1,4 +1,4 @@
-a_rgb = imread('..\ImageLIB\jupitermoon.tif');
+a_rgb = imread('../ImageLIB/jupitermoon.tif');
 [r, c, p] = size(a_rgb);
 
 a_hsi = rgb2hsi(a_rgb);

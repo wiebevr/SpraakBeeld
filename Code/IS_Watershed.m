@@ -1,4 +1,4 @@
-a_in = imread('..\ImageLIB\small-blobs.tif');
+a_in = imread('../ImageLIB/small-blobs.tif');
 %I = rgb2gray(a_in);
 
 h = fspecial('sobel');

@@ -1,4 +1,4 @@
-foto = imread('..\ImageLIB\lenna_RGB.tif');
+foto = imread('../ImageLIB/lenna_RGB.tif');
 
 figure(2), clf;
 imshow(foto);

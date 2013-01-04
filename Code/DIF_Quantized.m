@@ -1,5 +1,5 @@
 bits = 4;
-a_bin = imread('..\ImageLIB\cameraman.tif');
+a_bin = imread('../ImageLIB/cameraman.tif');
 
 %Convert to double
 a_bin_double = im2double(a_bin);

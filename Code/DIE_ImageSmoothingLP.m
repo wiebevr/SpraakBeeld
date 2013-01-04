@@ -1,4 +1,4 @@
-a_bin = imread('..\ImageLIB\Lenna_BW_crop.tif');
+a_bin = imread('../ImageLIB/Lenna_BW_crop.tif');
 %a_bin_noise
 offset = 0;
 sigma = 0.2;

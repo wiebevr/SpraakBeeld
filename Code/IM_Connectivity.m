@@ -1,4 +1,4 @@
-a_in = imread('..\ImageLIB\dip1_inv.tif');
+a_in = imread('../ImageLIB/dip1_inv.tif');
 
 struct_element = strel('square', 3);
 struct_element2 = strel('square', 15);

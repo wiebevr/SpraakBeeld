@@ -1,4 +1,4 @@
-a_bin = imread('..\ImageLIB\cameraman_low_contrast.tif');
+a_bin = imread('../ImageLIB/cameraman_low_contrast.tif');
 a_bin_double = double(a_bin);
 
 minStrech = 0;

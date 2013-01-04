@@ -4,7 +4,7 @@ f = figure;
 ha = axes('units','normalized', 'position',[0 0 1 1]);
 uistack(ha,'top');
 % Read the background and scale it 
-I=imread('..\ImageLIB\back.jpg');
+I=imread('../ImageLIB/back.jpg');
 hi = imagesc(I);
 
 % Display the axes

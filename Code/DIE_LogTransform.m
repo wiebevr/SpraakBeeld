@@ -1,4 +1,4 @@
-a_bin = imread('..\ImageLIB\cameraman.tif');
+a_bin = imread('../ImageLIB/cameraman.tif');
 
 c = 30;
 

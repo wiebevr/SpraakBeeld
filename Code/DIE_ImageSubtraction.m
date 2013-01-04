@@ -1,5 +1,5 @@
-a_bin1 = imread('..\ImageLIB\Lenna_BW_crop.tif');
-a_bin2 = imread('..\ImageLIB\Lenna_BW_crop_twinsister2.tif');
+a_bin1 = imread('../ImageLIB/Lenna_BW_crop.tif');
+a_bin2 = imread('../ImageLIB/Lenna_BW_crop_twinsister2.tif');
 offset = 0;
 
 a_bin1_double = double(a_bin1);

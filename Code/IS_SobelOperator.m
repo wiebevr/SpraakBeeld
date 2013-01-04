@@ -1,4 +1,4 @@
-a_in = imread('..\ImageLIB\cameraman.tif');
+a_in = imread('../ImageLIB/cameraman.tif');
 
 a_in_edge = edge(a_in,'sobel');
 a_in_edge_thresh = edge(a_in,'sobel', 'nothinning' );

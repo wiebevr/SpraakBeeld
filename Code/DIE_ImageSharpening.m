@@ -1,6 +1,6 @@
 clear all;
 %Sharpening Filter
-foto = imread('..\ImageLIB\cameraman.tif');
+foto = imread('../ImageLIB/cameraman.tif');
 
 foto_double = double(foto);
 [r,c] = size(foto_double);

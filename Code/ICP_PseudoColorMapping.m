@@ -1,4 +1,4 @@
-a_bin = imread('..\ImageLIB\weld_defect.tif');
+a_bin = imread('../ImageLIB/weld_defect.tif');
 a_bin_out = a_bin;
 
 threshold = 253;

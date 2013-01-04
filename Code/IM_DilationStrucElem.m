@@ -1,4 +1,4 @@
-a_in = imread('..\ImageLIB\dip1_inv.tif');
+a_in = imread('../ImageLIB/dip1_inv.tif');
 
 a_gaus_noise = imnoise(a_in,'gaussian');
 a_senp_noise = imnoise(a_in,'salt & pepper');

@@ -1,4 +1,4 @@
-a_bin = imread('..\ImageLIB\cameraman.tif');
+a_bin = imread('../ImageLIB/cameraman.tif');
 
 %crop the image
 a_bin_crop = a_bin(37:100, 97:160);
